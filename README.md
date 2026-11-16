@@ -50,6 +50,7 @@ endmodule
 ```
 ## Testbench Program
 
+
 // gedit tb5.v
  
 module tb5;
@@ -163,8 +164,9 @@ Q(next) = T ⊕ Q   (T Flip-Flop)
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 **## Output**
-<img width="1913" height="1016" alt="Screenshot 2026-11-16 114529" src="https://github.com/user-attachments/assets/9bce4c3d-c19a-415a-aa89-2bc71e149919" />
 
+
+<img width="1913" height="1016" alt="Screenshot 2026-11-16 114529" src="https://github.com/user-attachments/assets/9bce4c3d-c19a-415a-aa89-2bc71e149919" />
 <img width="1914" height="1023" alt="Screenshot 2026-11-16 114625" src="https://github.com/user-attachments/assets/24d661ad-c32e-4d7c-a9ff-258eec41880e" />
 
 ## Viva-Voce Questions
