@@ -49,7 +49,6 @@ module tff (
 endmodule
 ```
 ## Testbench Program
-
 module tb5;
     reg  clk, rst, D, T;
     wire Qd, Qt;
@@ -159,11 +158,8 @@ Q(next) = T ⊕ Q   (T Flip-Flop)
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 **## Output**
-
-
-<img width="1913" height="1016" alt="Screenshot 2026-11-16 114529" src="https://github.com/user-attachments/assets/03b21f4a-47f7-4f7c-bcca-271cb6e53bb1" />
-
-<img width="1914" height="1023" alt="Screenshot 2026-11-16 114625" src="https://github.com/user-attachments/assets/3ac65505-a5bf-4064-8375-adde1b98b9a2" />
+<img width="1913" height="1016" alt="Screenshot 2026-11-16 114529" src="https://github.com/user-attachments/assets/3040cd4c-1fc7-4d10-aba1-4ac6076d605a" />
+<img width="1914" height="1023" alt="Screenshot 2026-11-16 114625" src="https://github.com/user-attachments/assets/da741a67-7be3-442a-b927-06c3be197c07" />
 
 
 ## Viva-Voce Questions
