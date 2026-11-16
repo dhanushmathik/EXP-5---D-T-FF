@@ -50,9 +50,6 @@ endmodule
 ```
 ## Testbench Program
 
-
-// gedit tb5.v
- 
 module tb5;
     reg  clk, rst, D, T;
     wire Qd, Qt;
@@ -104,8 +101,6 @@ module tb5;
         #20 $finish;
     end
 endmodule
-
-
 ## Truth Table
 
 <img width="349" height="264" alt="image" src="https://github.com/user-attachments/assets/d05e6f9d-ff68-466e-9eb8-52e22fa1b961" />
@@ -166,8 +161,10 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 **## Output**
 
 
-<img width="1913" height="1016" alt="Screenshot 2026-11-16 114529" src="https://github.com/user-attachments/assets/9bce4c3d-c19a-415a-aa89-2bc71e149919" />
-<img width="1914" height="1023" alt="Screenshot 2026-11-16 114625" src="https://github.com/user-attachments/assets/24d661ad-c32e-4d7c-a9ff-258eec41880e" />
+<img width="1913" height="1016" alt="Screenshot 2026-11-16 114529" src="https://github.com/user-attachments/assets/03b21f4a-47f7-4f7c-bcca-271cb6e53bb1" />
+
+<img width="1914" height="1023" alt="Screenshot 2026-11-16 114625" src="https://github.com/user-attachments/assets/3ac65505-a5bf-4064-8375-adde1b98b9a2" />
+
 
 ## Viva-Voce Questions
 
